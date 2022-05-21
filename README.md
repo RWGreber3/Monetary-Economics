@@ -6,3 +6,4 @@ The only complete model in the repository initially is Model DIS, from Chapter 9
 
 I will eventually add comments to make the code more understandable. If you're working through the book and have any questions, let me know and I'd be happy to do what I can to help. sfc-models.net is also a great resource if you need more help. 
 
+If you're wondering what sort of math is useful in building these models, Linear Algebra is most useful earlier in the book. Specifically Guassian Reduction. The later chapters (so far at least) are solvable with just standard algebra, but the equations need to be solved in the correct order.
