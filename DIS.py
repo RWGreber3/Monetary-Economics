@@ -211,6 +211,6 @@ loan_rate_param = 0.04
 x = Model_DIS(inv_target_param, inventory_correction_param, ex_sales_weight_param, labor_productivity_param,
               wage_rate_param, int_margin_param, mark_up_param, autonomous_consumption_param,
               prop_consume_dis_income_param, prop_consume_wealth_param, income_expect_adj_param, loan_rate_param)
-x.shock_method(autonomous_consumption=20)
+x.shock_method(mark_up=0.3)
 x.iterative_solution(100)
 x.print_model_data()
